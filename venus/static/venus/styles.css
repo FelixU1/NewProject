@@ -1,0 +1,85 @@
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 100vw;
+}
+nav{
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.strapline-container{
+    border: 2px solid blue;
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+}
+.main-strapline{
+    font-size: 120px;
+    color: blue;
+    margin: 50px 0px;
+}
+.second-strapline{
+    color: #37555a;
+    font-size: 30px;
+    font-style: italic;
+}
+.section-title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+.about-section{
+    width: 100vw;
+    height: 90vh;
+
+}
+.about-container{
+    border: 2px solid blue;
+    width: 85%;
+    margin: 0px auto;
+}
+.box{
+    border: 2px solid blue;
+    width: 45%;
+    height: 200px;
+}
+@media (min-width: 600px) {
+    body{
+        background-color: skyblue;
+    }
+} 
+@media (max-width: 599px) {
+    body{
+        background-color: cadetblue;
+    }
+}
